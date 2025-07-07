@@ -1,7 +1,7 @@
 @Library('jenkins-global-pipeline-lib-test@fix-app-image-only') _
 pipelineWorkflow(
-  accountName: "staging",
+  accountName: "mypetshopp",
   awsRegion: "us-east-2",
   key: "app",
-  aws_role_arn: "arn:aws:iam::763192996712:role/Jenkins_Role"
-)
+  aws_role_arn: "arn:aws:iam::413093369224:role/Jenkins_Role"
+) 
